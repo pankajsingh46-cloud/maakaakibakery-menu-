@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MAA KAALI BEKARY AND FAST FOOD</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <header class="main-header">
+            <div class="brand-info">
+                <h1>MAA KAALI</h1>
+                <p>Bekary and Fast Food</p>
+            </div>
+        </header>
+
+        <main id="home-view" class="view">
+            <div id="category-grid" class="category-grid"></div>
+        </main>
+
+        <main id="category-view" class="view" style="display: none; opacity: 0;">
+            <div class="category-header">
+                <button id="back-btn" class="back-btn">
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+                <h2 id="category-title">Category Name</h2>
+            </div>
+            <div id="items-container" class="items-container"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Maa Kaali. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
